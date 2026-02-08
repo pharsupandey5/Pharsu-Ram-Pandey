@@ -3,239 +3,343 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Adv. Pharsu Ram Pandey | Academic Lawyer Profile</title>
-
+  <title>Adv. Pharsu Ram Pandey | Attorney at Law</title>
+  <meta name="description" content="Adv. Pharsu Ram Pandey – Attorney at Law (Nepal), LL.M. (USA). Constitutional law, criminal defense, and public law practice." />
   <style>
-    body{
-      margin:0;
-      font-family: "Georgia", "Times New Roman", serif;
-      background:#f4f4f4;
-      color:#1e1e1e;
-      line-height:1.75;
+    :root {
+      --primary: #0b3c5d;
+      --secondary: #1d2731;
+      --accent: #cfa34a;
+      --light: #f7f9fb;
+      --text: #222;
     }
 
-    .container{
-      max-width:1100px;
-      margin:auto;
-      background:#ffffff;
-      padding:60px 70px;
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: "Segoe UI", Roboto, Arial, sans-serif;
+      color: var(--text);
+      background: var(--light);
+      line-height: 1.6;
     }
 
-    header{
-      display:flex;
-      gap:40px;
-      align-items:center;
-      border-bottom:2px solid #ddd;
-      padding-bottom:40px;
-      margin-bottom:50px;
+    a { color: var(--primary); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    header {
+      background: linear-gradient(135deg, var(--secondary), var(--primary));
+      color: #fff;
+      padding: 3rem 1.5rem;
     }
 
-    header img{
-      width:180px;
-      height:180px;
-      object-fit:cover;
-      border-radius:4px;
-      border:1px solid #ccc;
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 0 1.5rem;
     }
 
-    header h1{
-      margin:0;
-      font-size:2.4rem;
-      font-weight:700;
-      letter-spacing:0.5px;
+    header h1 {
+      font-size: 2.4rem;
+      margin-bottom: 0.5rem;
     }
 
-    header h2{
-      margin:8px 0;
-      font-size:1.2rem;
-      font-weight:400;
-      color:#444;
+    header p {
+      font-size: 1.05rem;
+      opacity: 0.95;
     }
 
-    header p{
-      margin:4px 0;
-      font-size:0.95rem;
-      color:#555;
+    nav {
+      background: #fff;
+      border-bottom: 1px solid #e5e7eb;
+      position: sticky;
+      top: 0;
+      z-index: 10;
     }
 
-    section{
-      margin-bottom:45px;
+    nav ul {
+      display: flex;
+      gap: 1.2rem;
+      list-style: none;
+      padding: 0.8rem 0;
+      flex-wrap: wrap;
     }
 
-    section h3{
-      font-size:1.4rem;
-      border-bottom:1px solid #bbb;
-      padding-bottom:6px;
-      margin-bottom:18px;
-      text-transform:uppercase;
-      letter-spacing:1px;
+    nav a {
+      font-weight: 600;
+      color: var(--secondary);
     }
 
-    .item{
-      margin-bottom:20px;
+    section {
+      padding: 3rem 0;
     }
 
-    .item-title{
-      font-weight:700;
+    section h2 {
+      font-size: 1.8rem;
+      margin-bottom: 1.2rem;
+      color: var(--secondary);
+      position: relative;
     }
 
-    .item-sub{
-      font-style:italic;
-      color:#555;
+    section h2::after {
+      content: "";
+      width: 60px;
+      height: 3px;
+      background: var(--accent);
+      display: block;
+      margin-top: 0.4rem;
     }
 
-    ul{
-      margin:8px 0 0 18px;
+    .card {
+      background: #fff;
+      padding: 1.5rem;
+      border-radius: 6px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.06);
+      margin-bottom: 1.5rem;
     }
 
-    li{
-      margin-bottom:6px;
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
     }
 
-    .two-col{
-      display:grid;
-      grid-template-columns:1fr 1fr;
-      gap:40px;
+    ul.list {
+      list-style: disc;
+      margin-left: 1.2rem;
     }
 
-    footer{
-      border-top:1px solid #ddd;
-      padding-top:25px;
-      font-size:0.95rem;
-      color:#444;
+    footer {
+      background: var(--secondary);
+      color: #fff;
+      padding: 2rem 1.5rem;
+      text-align: center;
     }
 
-    footer a{
-      color:#000;
-      text-decoration:none;
-    }
+    footer a { color: #fff; }
 
-    footer a:hover{
-      text-decoration:underline;
-    }
-
-    @media(max-width:800px){
-      header{flex-direction:column; text-align:center;}
-      .two-col{grid-template-columns:1fr;}
-      .container{padding:40px 25px;}
+    .badge {
+      display: inline-block;
+      background: var(--accent);
+      color: #000;
+      padding: 0.2rem 0.6rem;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      margin-left: 0.4rem;
     }
   </style>
 </head>
 <body>
 
+<header>
   <div class="container">
-
-    <header>
-      <img src="image.jpg" alt="Adv. Pharsu Ram Pandey" />
-      <div>
+    <div style="display:flex; flex-wrap:wrap; gap:2rem; align-items:center;">
+      <div style="flex:0 0 200px;">
+        <img src="image.jpg" alt="Advocate Pharsu Ram Pandey" style="width:200px; height:auto; border-radius:6px; border:3px solid #cfa34a; background:#fff;" />
+      </div>
+      <div style="flex:1; min-width:220px;">
         <h1>Adv. Pharsu Ram Pandey</h1>
-        <h2>Attorney at Law (Nepal) | Licensed Lawyer of Nepal</h2>
-        <p>New York, USA</p>
-        <p>Email: pharsupandey5@gmail.com</p>
+        <p>Attorney at Law (Nepal) | Licensed Advocate of Nepal</p>
+        <p>LL.M. in U.S., International & Transnational Law</p>
+        <p>New York City, New York, USA</p>
       </div>
-    </header>
-
-    <section>
-      <h3>Professional Summary</h3>
-      <p>
-        I am a licensed Advocate of Nepal and a Master of Laws (LL.M.) graduate in U.S., International and Transnational Law from Chicago‑Kent College of Law, Illinois Institute of Technology. My academic training and professional practice focus on constitutional law, legal education, and rights‑based advocacy. I bring experience in litigation, teaching, research, and public legal discourse, with a strong commitment to advancing constitutional justice and legal scholarship in Nepal.
-      </p>
-    </section>
-
-    <section>
-      <h3>Education</h3>
-      <div class="item">
-        <div class="item-title">Master of Laws (LL.M.) in U.S., International and Transnational Law</div>
-        <div class="item-sub">Chicago-Kent College of Law, Illinois Institute of Technology — 2025</div>
-      </div>
-      <div class="item">
-        <div class="item-title">Bachelor of Arts & Bachelor of Laws (B.A.LL.B.)</div>
-        <div class="item-sub">Nepal Law Campus, Tribhuvan University — 2023</div>
-      </div>
-    </section>
-
-    <section>
-      <h3>Professional Experience</h3>
-
-      <div class="item">
-        <div class="item-title">Legal Associate</div>
-        <div class="item-sub">Justice Law Associates, Kathmandu, Nepal (Aug 2023 – Dec 2024)</div>
-        <ul>
-          <li>Client counseling and legal consultation</li>
-          <li>Drafting complaints, responses, and other legal documents</li>
-          <li>Making oral submissions before courts, including the Supreme Court of Nepal</li>
-        </ul>
-      </div>
-
-      <div class="item">
-        <div class="item-title">Tutor</div>
-        <div class="item-sub">Plato Academy of Law, Kathmandu, Nepal (Mar 2019 – Dec 2024)</div>
-        <ul>
-          <li>Instructed candidates preparing for university entrance examinations</li>
-          <li>Taught legal theory and constitutional law</li>
-        </ul>
-      </div>
-
-      <div class="item">
-        <div class="item-title">Elected Executive Member</div>
-        <div class="item-sub">Student Council, Nepal Law Campus, Kathmandu (Mar 2023 – Dec 2024)</div>
-        <ul>
-          <li>Coordinator, Moot Court Committee</li>
-          <li>Led civil and criminal moot court competitions</li>
-          <li>Advanced student advocacy skills and student-focused initiatives</li>
-        </ul>
-      </div>
-    </section>
-
-    <section>
-      <h3>Trainings, Participations & Activities</h3>
-      <ul>
-        <li>Member, Amnesty International Nepal – Youth Network (2017–2022)</li>
-        <li>First Position, Sushila Singh Silu Memorial Moot Court Competition (2022)</li>
-        <li>Clinical Legal Education Program, UNDP – Access to Justice Project (2020)</li>
-        <li>Ramraj Panta Moot Court Competition (2019)</li>
-        <li>NELSA Moot Court Competition (2019)</li>
-        <li>Debate Star, News24 Television (2018)</li>
-        <li>Election Observer, Election Commission of Nepal (2022)</li>
-        <li>Contract Drafting Workshop, Kathmandu Model College (2021)</li>
-      </ul>
-    </section>
-
-    <section>
-      <h3>Publications & Press Coverage</h3>
-      <ul>
-        <li>Supreme Court verdict: A missed opportunity for constitutional justice | <em>The Himalayan Times</em> — Nepal's largest English Daily | <a href="https://thehimalayantimes.com/opinion/supreme-court-verdict-a-missed-opportunity-for-constitutional-justice" target="_blank">Link</a> | July 20, 2025</li>
-        <li>"नागरिकताको खास विवाद सल्टाउने कहिले?" (When to Resolve the Actual Disputes of Citizenship?) | Nepal Press | <a href="https://www.nepalpress.com/2022/02/26/159943/" target="_blank">Link</a> | July 13, 2022</li>
-        <li>"बलात्कार विरुद्धको कानुन नबुझेका ‘पलवादी’ हरु।" (The Misunderstood Followers of Paul Regarding the Law against Sexual Assault) | Nayapatrika Daily | <a href="https://www.nayapatrikadaily.com/news-details/90952/2022-07-13" target="_blank">Link</a> | Feb 26, 2022</li>
-        <li>"सर्वोच्चको फैसलाले आरक्षणलाई उल्टाएको हैन।" (Reservation not Overturned by the Supreme Court Decision) | Setopati | <a href="https://www.setopati.com/author/3277" target="_blank">Link</a> | Aug 6, 2021</li>
-        <li>"पूर्ण समानुपातिक निर्वाचन प्रणाली किन?" (Why Proportional Representation Electoral System?) | Ekagaj | <a href="https://ekagaj.com/author/502" target="_blank">Link</a> | Oct 22, 2021</li>
-      </ul>
-    </section>
-
-    <section class="two-col">
-      <div>
-        <h3>Languages</h3>
-        <p>English, Nepali, Hindi</p>
-      </div>
-      <div>
-        <h3>Legal Services</h3>
-        <ul>
-          <li>Criminal Defense & Litigation</li>
-          <li>Corporate Compliance & Registration</li>
-          <li>Family & Property Law</li>
-          <li>Constitutional & Public Law</li>
-          <li>Intellectual Property Law</li>
-        </ul>
-      </div>
-    </section>
-
-    <footer>
-      <p>
-        Email: <a href="mailto:pharsupandey5@gmail.com">pharsupandey5@gmail.com</a> | 
-        LinkedIn: <a href="https://www.linkedin.com/in/pharsuram-pandey/" target="_blank">linkedin.com/in/pharsuram-pandey</a>
-      </p>
-    </footer>
+    </div>
 
   </div>
+    
+  </div>
+</header>
+
+<nav>
+  <div class="container">
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#cases">Notable Cases</a></li>
+      <li><a href="#services">Legal Services</a></li>
+      <li><a href="#publications">Publications</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<section id="about">
+  <div class="container">
+    <h2>Professional Summary</h2>
+    <div class="card">
+      <p>
+        I am a licensed Advocate of Nepal and a Master of Laws (LL.M.) graduate in U.S., International and Transnational Law from Chicago‑Kent College of Law, Illinois Institute of Technology. My academic training and professional practice focus on constitutional law, legal education, criminal litigation, and rights‑based advocacy. I have represented clients before multiple levels of courts in Nepal, including the Supreme Court, and remain committed to constitutionalism, due process, and the rule of law.
+      </p>
+    </div>
+  </div>
+</section>
+
+<section id="education">
+  <div class="container">
+    <h2>Education</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Master of Laws (LL.M.)</h3>
+        <p>U.S., International & Transnational Law</p>
+        <p><strong>Chicago‑Kent College of Law</strong>, Illinois Institute of Technology, Chicago, USA</p>
+        <p>2025</p>
+      </div>
+      <div class="card">
+        <h3>Bachelor of Arts & Bachelor of Laws (B.A.LL.B.)</h3>
+        <p><strong>Nepal Law Campus</strong>, Tribhuvan University, Kathmandu, Nepal</p>
+        <p>2023</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="experience">
+  <div class="container">
+    <h2>Professional Experience</h2>
+
+    <div class="card">
+      <h3>Legal Associate <span class="badge">Nepal</span></h3>
+      <p><strong>Justice Law Associates, Kathmandu</strong> | Aug 2023 – Dec 2024</p>
+      <ul class="list">
+        <li>Client counseling and legal consultation</li>
+        <li>Drafting complaints, written responses, and legal pleadings</li>
+        <li>Oral submissions before courts, including the Supreme Court of Nepal</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Tutor</h3>
+      <p><strong>Plato Academy of Law, Kathmandu</strong> | Mar 2019 – Dec 2024</p>
+      <ul class="list">
+        <li>Instructed candidates preparing for university entrance examinations</li>
+        <li>Taught legal theory and constitutional law</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Elected Executive Member</h3>
+      <p><strong>Student Council, Nepal Law Campus</strong> | Mar 2023 – Dec 2024</p>
+      <ul class="list">
+        <li>Coordinator, Moot Court Committee</li>
+        <li>Led civil and criminal moot court competitions</li>
+        <li>Advanced student advocacy skills and student-focused initiatives</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h3>Deputy Secretary</h3>
+      <p><strong>Smart Youth Nepal (Non-Governmental Organization)</strong> | Nov 2022 – Present</p>
+      <ul class="list">
+        <li>Orchestrated legal awareness programs and community legal clinics</li>
+        <li>Coordinated legal dramas and public legal education initiatives</li>
+        <li>Facilitated law-related seminars to promote legal literacy</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="cases">
+  <div class="container">
+    <h2>Notable Cases <span style="font-size:0.85rem; font-weight:normal;">(Case summaries are presented in anonymized form to respect confidentiality and professional obligations.)</span></h2>
+
+    <div class="card">
+      <h3>Constitutional Challenge to Social Media Restriction (TikTok Ban Issue)</h3>
+      <p><strong>Court:</strong> Supreme Court of Nepal</p>
+      <p><strong>Role:</strong> Writ Petitioner</p>
+      <p>
+        Filed and argued a constitutional writ challenging a government decision restricting a major social media platform, raising issues of freedom of expression and the right to communication under the Constitution of Nepal. The matter generated nationwide debate on digital rights and constitutional limits on executive power.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Telecommunications Sector Corruption Prosecution</h3>
+      <p><strong>Court:</strong> Special Court of Nepal</p>
+      <p><strong>Role:</strong> Defense Counsel</p>
+      <p>
+        Represented a senior public official in a high‑profile corruption case concerning the implementation of a national telecommunications system. The case involves complex questions of administrative law, procurement, and criminal liability.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Serious Criminal Offense Appeal</h3>
+      <p><strong>Court:</strong> High Court of Nepal</p>
+      <p><strong>Role:</strong> Defense Lawyer</p>
+      <p>
+        Prepared detailed pleadings and advanced oral arguments in a serious criminal matter, resulting in the acquittal of the accused at the appellate level.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Homicide and Robbery Litigation</h3>
+      <p><strong>Court:</strong> Supreme Court of Nepal</p>
+      <p><strong>Role:</strong> Defense Lawyer</p>
+      <p>
+        Ongoing representation in a complex criminal case involving allegations of homicide and robbery, including appellate‑level advocacy before the Supreme Court of Nepal.
+      </p>
+    </div>
+
+    <div class="card">
+      <h3>Constitutional Bench Litigation</h3>
+      <p><strong>Court:</strong> Supreme Court of Nepal (Constitutional Bench)</p>
+      <p><strong>Role:</strong> Defense Lawyer</p>
+      <p>
+        Appeared before the Constitutional Bench in a landmark case challenging the constitutional eligibility of a sitting parliamentarian, involving interpretation of constitutional qualifications and democratic norms.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<section id="services">
+  <div class="container">
+    <h2>Legal Services</h2>
+    <div class="grid">
+      <div class="card">Criminal Defense & Litigation</div>
+      <div class="card">Corporate Compliance: Registration, Update & Termination</div>
+      <div class="card">Family & Property Law: Court Marriage, Divorce & Partition</div>
+      <div class="card">Constitutional & Public Law</div>
+      <div class="card">Intellectual Property Law</div>
+    </div>
+  </div>
+</section>
+
+<section id="publications">
+  <div class="container">
+    <h2>Publications & Press Coverage</h2>
+    <div class="card">
+      <ul class="list">
+        <li><a href="https://thehimalayantimes.com/opinion/supreme-court-verdict-a-missed-opportunity-for-constitutional-justice" target="_blank">Supreme Court verdict: A missed opportunity for constitutional justice</a> — <em>The Himalayan Times</em> (July 20, 2025)</li>
+        <li><a href="https://theannapurnaexpress.com/story/53181/" target="_blank">From Nepal to Chicago: A student’s perspective on campus politics</a> — <em>Annapurna Express</em> (April 2, 2025)</li>
+        <li><a href="https://www.nepalpress.com/2022/02/26/159943/" target="_blank">"नागरिकताको खास विवाद सल्टाउने कहिले?"</a> — <em>Nepal Press</em> (July 13, 2022)</li>
+        <li><a href="https://www.nayapatrikadaily.com/news-details/90952/2022-07-13" target="_blank">"बलात्कार विरुद्धको कानुन नबुझेका ‘पलवादी’ हरु।"</a> — <em>Nayapatrika Daily</em> (Feb 26, 2022)</li>
+        <li><a href="https://www.setopati.com/author/3277" target="_blank">"सर्वोच्चको फैसलाले आरक्षणलाई उल्टाएको हैन।"</a> — <em>Setopati</em> (Aug 6, 2021)</li>
+        <li><a href="https://ekagaj.com/author/502" target="_blank">"पूर्ण समानुपातिक निर्वाचन प्रणाली किन?"</a> — <em>Ekagaj</em> (Oct 22, 2021)</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <div class="container">
+    <h2>Contact</h2>
+    <div class="card">
+      <p><strong>Mobile Number:</strong> +977-9844781691 <em>(WhatsApp only)</em></p>
+      <p><strong>Consultation:</strong> Initial consultation available upon prior appointment.</p>
+      <hr style="margin:1rem 0;">
+      <p><strong>Facebook:</strong> <a href="https://facebook.com/impharsu" target="_blank">facebook.com/impharsu</a></p>
+      <p><strong>TikTok:</strong> <a href="https://tiktok.com/pandey_pharsu" target="_blank">tiktok.com/pandey_pharsu</a></p>
+      <p><strong>X (Twitter):</strong> <a href="https://x.com/impharsu" target="_blank">x.com/impharsu</a></p>
+      <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/pharsuram-pandey" target="_blank">linkedin.com/in/pharsuram-pandey</a></p>
+      <p><strong>YouTube:</strong> <a href="https://youtube.com/@AdvocatePharsuRamPandey" target="_blank">youtube.com/@AdvocatePharsuRamPandey</a></p>
+      <p style="margin-top:1rem; font-size:0.9rem;">
+        <em>Disclaimer: This website is for informational purposes only and does not constitute legal advice or create an attorney‑client relationship.</em>
+      </p>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2026 Adv. Pharsu Ram Pandey. All Rights Reserved.</p>
+</footer>
+
 </body>
 </html>
